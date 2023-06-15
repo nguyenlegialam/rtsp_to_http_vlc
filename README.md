@@ -2,7 +2,11 @@
   
 Ngôn ngữ: Python
   
-Giải thích: chạy VLC ở terninal của máy tính nhúng (Raspberry) được đặt nội bộ LAN trong nhà, bằng sử dụng chức năng convert của VLC để tạo 1 luồng stream của camera qua các port của LAN. Lúc này, ID của camera trong DB sẽ là số port được mở của camera đó trong command. Các command được lưu lại trong file docx đính kèm, trong đó có ghi rõ các command hoạt động và cách sử dụng  
+Giải thích: chạy VLC ở terninal của máy tính nhúng (Raspberry) được đặt nội bộ LAN trong nhà, bằng sử dụng chức năng convert của VLC để tạo 1 luồng stream của camera qua các port của LAN. Lúc này, ID của camera trong DB sẽ là số port được mở của camera đó trong command. Các command được lưu lại trong file docx đính kèm, trong đó có ghi rõ các command hoạt động và cách sử dụng. Mỗi camera sẽ stream qua mỗi port khác nhau, trong project gốc thì:  
+  - Cam cổng: 9911
+  - Cam trệt: 9912
+  - Cam tầng 1: 9913
+  - ...
   
 Yêu cầu:  
   - Link Rtsp của camera
