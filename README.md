@@ -8,7 +8,10 @@ Yêu cầu:
   - Link Rtsp của camera
   - Máy tính được đặt chung mạng LAN hoặc VPN đến mạng LAN đó
   - Cài đặt python >3.6 và các thư viện bên ngoài trong requirement
-  - Cài đặt VLC media trong máy tính
+  - Cài đặt VLC media trong máy tính  
+  
+Điểm yếu:  
+  - Thêm camera bằng cách tạo và chạy command trên terminal, cách thêm camera được hướng dẫn trong file docx  
   
 # Cách chạy project:  
   
