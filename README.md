@@ -4,6 +4,7 @@ Giải thích: chạy VLC ở terninal của máy tính nhúng (Raspberry) đư�
 Điểm yếu:  
   - Mở port của router nên phải có phương pháp an toàn thông tin
   - Phải có máy tính nhúng được đặt on land connect với mạng LAN  
+  
 Bước 1: chạy command VLC trên terminal của Raspberry
 
 Bước 2: tạo url với phương pháp response là RedirectResponse
