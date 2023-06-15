@@ -4,10 +4,21 @@ Giải thích: chạy VLC ở terninal của máy tính nhúng (Raspberry) đư�
 Điểm yếu:  
   - Mở port của router nên phải có phương pháp an toàn thông tin
   - Phải có máy tính nhúng được đặt on land connect với mạng LAN  
-  
-Bước 1: chạy command VLC trên terminal của Raspberry (command được miêu tả trong file docx được đính kèm)
 
-Bước 2: tạo url với phương pháp response là RedirectResponse
-![image](https://github.com/nguyenlegialam/rtsp_to_http_vlc/assets/116132135/ddac3a8a-9af2-44c0-8525-181109adb98a)
+Cách chạy project:  
+Bước 1: Mở terminal của máy tính được cài đặt ở mạng LAN (Raspberry,...)  
+Bước 2: Nhập các command trong file docx được đính kèm để VLC bắt đầu stream HTTP  
+![image](https://github.com/nguyenlegialam/rtsp_to_http_vlc/assets/116132135/1a6c12be-baaf-4f12-ba41-4aadd8b379ea)  
+
+Sau bước này, các luồng stream http của camera đã được VLC thực hiện. Bước tiếp theo sẽ là Redirect lại url để tạo api như mong muốn  
+Bước 3: run code trên terminal  
+Linux: sudo rtsp_http_vlc.py   
+
+
+
+
+
+
+
 
 
