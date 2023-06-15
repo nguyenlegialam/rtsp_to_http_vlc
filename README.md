@@ -15,7 +15,7 @@ Bước 2: Nhập các command trong file docx được đính kèm để VLC b�
   
 Sau bước này, các luồng stream http của camera đã được VLC thực hiện. 
   
-Bước 3: run code rtsp_http_vlc.py  
+Bước 3: run rtsp_http_vlc.py  
    
 Kiểm tra luồng stream có hoạt động hay không bằng cách gõ url: localhost:6064/cam-cong
 
