@@ -6,6 +6,7 @@ Yêu cầu:
   - Link Rtsp của camera
   - Máy tính được đặt chung mạng LAN hoặc VPN đến mạng LAN đó
   - Cài đặt python >3.6 và các thư viện bên ngoài trong requirement
+  - Cài đặt VLC media trong máy tính
   
 # Cách chạy project:  
   
