@@ -5,6 +5,7 @@ Giải thích: chạy VLC ở terninal của máy tính nhúng (Raspberry) đư�
 Yêu cầu:  
   - Link Rtsp của camera
   - Máy tính được đặt chung mạng LAN hoặc VPN đến mạng LAN đó
+  - Cài đặt python >3.6 và các thư viện bên ngoài trong requirement
   
 Cách chạy project:  
 Bước 1: Mở terminal của máy tính được cài đặt ở mạng LAN (Raspberry,...)  
